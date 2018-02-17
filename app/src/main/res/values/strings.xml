@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Pizza Shop Card</string>
+    <string name="presentation_text"> Full satisfaction of our clients, our passion for what we do, the perfect taste and attention to details under one roof.</string>
+    <string name="localisation"><a href="https://www.google.com/maps/place/Bulevardul+Petrolului+37,+Ploie%C8%99ti,+Romania/@44.9145139,26.0214593,17z/data=!3m1!4b1!4m5!3m4!1s0x40b249daaf6bb5bd:0x8c27b73ead643ae5!8m2!3d44.9145139!4d26.023648?hl=en-US">Petrolului Bulevard no. 37, Ploiesti</a></string>
+    <string name="web_text">www.pizza-shop.ro</string>
+    <string name="phone_number">0744.454.530</string>
+</resources>

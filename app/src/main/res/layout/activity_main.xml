@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context="com.example.android.pizzashopcard.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/pizzashop" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@android:color/darker_gray" />
+
+    <TextView
+        android:id="@+id/presentation_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/architects_daughter"
+        android:padding="@dimen/presentation_text_padding"
+        android:text="@string/presentation_text"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/text_color"
+        android:visibility="visible" />
+
+    <TextView
+        style="@style/MyDefaultTextAppearance"
+        android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/link_margin_bottom"
+        android:autoLink="web"
+        android:text="@string/web_text" />
+
+    <TextView
+        style="@style/MyDefaultTextAppearance"
+        android:layout_marginLeft="@dimen/margin_start_adress_phone"
+        android:layout_marginStart="@dimen/margin_start_adress_phone"
+        android:autoLink="phone"
+        android:drawableLeft="@drawable/phoneicon"
+        android:drawableStart="@drawable/phoneicon"
+        android:drawablePadding="@dimen/padding_icon"
+        android:gravity="center"
+        android:text="@string/phone_number" />
+
+    <TextView
+        android:id="@+id/adress"
+        style="@style/MyDefaultTextAppearance"
+        android:layout_marginBottom="@dimen/margin_bottom_app"
+        android:layout_marginLeft="@dimen/margin_start_adress_phone"
+        android:layout_marginStart="@dimen/margin_start_adress_phone"
+        android:drawableLeft="@drawable/localisation"
+        android:drawableStart="@drawable/localisation"
+        android:drawablePadding="@dimen/padding_icon"
+        android:gravity="center"
+        android:text="@string/localisation" />
+
+</LinearLayout>
